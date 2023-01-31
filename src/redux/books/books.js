@@ -7,14 +7,14 @@ const initialState = {
   books: [],
 }
 
-const Reducer = createReducer(initialState, (builder) => {
-  builder.addCase(ADD_BOOK, (state, action) => {
+const Reducer = createReducer(initialState, (develop) => {
+  develop.addCase(ADD_BOOK, (state, action) => {
     state.books.push(action.payload);
   });
-  builder.addCase(REMOVE_BOOK, (state, action) => {
+  develop.addCase(REMOVE_BOOK, (state, action) => {
     state.books.filter((book) => book.id !== action.payload);
   });
-  builder.addDefaultCase((state) => state);
+  develop.addDefaultCase((state) => state);
 });
 
 export default Reducer;

@@ -15,10 +15,6 @@ const Book = ({
       <button type="button" onClick={onRemoveBookHandler}>
         Remove
       </button>
-      <div>Progress 75%</div>
-      <div>
-        <button type="button">Update Progress</button>
-      </div>
     </Card>
   </li>
 );

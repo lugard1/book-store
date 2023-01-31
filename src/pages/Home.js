@@ -26,9 +26,7 @@ const DUMMY_BOOKS = [
 ];
 
 const HomePage = () => {
-  const removeBookHandler = () => {
-    // ('Removed');
-  };
+  const removeBookHandler = () => {};
   return (
     <section>
       <Card>
