@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 > 
 
-**[Bookstore: initialize]** This project is to lay foundations for Bookstore website. it was created with React app and also set up routing using React Router.
+**[Bookstore: Add Reducers and action]** This project is to lay foundations for Bookstore website. it was created with React app and also set up routing using React Router and in addition introduce redux reducers and actions for add and remove.
 ## 🛠 Built With <a name="built-with">
 - HTML
 - CSS
@@ -73,11 +73,12 @@ After you're finished please remove all the comments and instructions!
 - Webpack
 - React
 - React Router DOM
+- Redux
 </a>
 
-### Tech Stack <a name="tech-stack"></a>
+<!-- ### Tech Stack <a name="tech-stack"></a>
 
-<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
+Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -98,14 +99,14 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> 
 
-Features -->
+Features 
 ### Key Features <a name="key-features"></a>
 
 >
 
-- **A Home page, Calculator page, and Quote page**
+- **A** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,7 +231,7 @@ FUTURE FEATURES
 
 > 
 
--  **I would work on the style, feel and the functionalities of the bookstore app.**
+-  **I would work on the style, feel and the functionalities of the bookstore app and also use Redux in React components.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -283,7 +284,7 @@ I would like to thank everyone that made this work a success, most especially Ab
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/lugard1/book-store/blob/initialize-project/MIT.md) licensed.
+This project is [MIT](https://github.com/lugard1/book-store/blob/redux-actions/MIT.md) licensed.
 
 <!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
