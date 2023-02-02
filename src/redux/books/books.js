@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { createReducer, createAction } from '@reduxjs/toolkit';
 
 export const ADD_BOOK = createAction('books/add');
