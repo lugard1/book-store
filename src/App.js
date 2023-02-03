@@ -1,17 +1,15 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { Routes, Route } from 'react-router-dom';
-
 import Layout from './components/UI/Layout';
-import Home from './pages/Home';
-import Categories from './pages/Categories';
+import HomePage from './pages/HomePage';
+import CategoriesPage from './pages/CategoriesPage';
 import './App.css';
 
 const App = () => (
   <Layout>
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/categories" element={<Categories />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/categories" element={<CategoriesPage />} />
     </Routes>
   </Layout>
 );
