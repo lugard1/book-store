@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { useDispatch } from 'react-redux';
 
 import { ADD_BOOK } from '../../redux/books/books';

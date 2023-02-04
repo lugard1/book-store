@@ -1,5 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { useSelector } from 'react-redux';
 
 import Book from './Book';

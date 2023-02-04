@@ -1,5 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { useSelector, useDispatch } from 'react-redux';
 import { CHECK_STATUS } from '../redux/categories/categories';
 import Card from '../components/UI/Card';

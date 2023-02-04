@@ -115,9 +115,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+- Not available.
 
-- [Live Demo Link]()
+<!-- - [Live Demo Link]() -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,8 +162,12 @@ Example commands:
 ### Install
 
 Install this project with:
-- Git Bash
-- Vs code 
+- copy the link of the repo. and 
+- open the terminal in your local machine
+- git clone url of the repo.
+- ls
+- cd to repo. name.
+- code . to open in Vs code
 <!--
 Example command:
 
