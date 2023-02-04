@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { FaUser } from 'react-icons/fa';
 
@@ -11,10 +11,10 @@ const Header = () => (
       </div>
       <ul>
         <li>
-          <NavLink to="/">BOOK</NavLink>
+          <Link to="/">BOOK</Link>
         </li>
         <li>
-          <NavLink to="/categories">CATEGORIES</NavLink>
+          <Link to="/categories">CATEGORIES</Link>
         </li>
       </ul>
       <div>

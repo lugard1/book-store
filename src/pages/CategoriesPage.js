@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { CHECK_STATUS } from '../redux/categories/categories';
 import Card from '../components/UI/Card';
 
-const CategoriesPage = () => {
+const Categories = () => {
   const status = useSelector((state) => state.categories.status);
   const dispatch = useDispatch();
 
@@ -18,7 +18,7 @@ const CategoriesPage = () => {
   }
   return (
     <Card>
-      <h2>Hello Form CategoriesPage</h2>
+      <h2>Hello here is the CategoriesPage</h2>
       {statusContent}
       <button type="button" onClick={checkStatusHandler}>
         Check status
@@ -27,4 +27,4 @@ const CategoriesPage = () => {
   );
 };
 
-export default CategoriesPage;
+export default Categories;

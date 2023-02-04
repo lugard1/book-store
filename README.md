@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 > 
 
-**[Bookstore: initialize]** This project is to lay foundations for Bookstore website. it was created with React app and also set up routing using React Router.
+**[Bookstore: reducers and actions]** In this project, I configure Redux Store and write actions and reducer for adding and removing books, which was implemented.
 ## 🛠 Built With <a name="built-with">
 - HTML
 - CSS
@@ -75,37 +75,39 @@ After you're finished please remove all the comments and instructions!
 - React Router DOM
 </a>
 
-### Tech Stack <a name="tech-stack"></a>
+<!-- ### Tech Stack <a name="tech-stack"></a> -->
 
 <!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
 
-<details>
+<!-- <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> -->
 
-Features -->
 ### Key Features <a name="key-features"></a>
 
 >
 
-- **A Home page, Calculator page, and Quote page**
+- **input fields for adding books and authors**
+- **Nav links**
+- **Add button**
+- **remove button**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +132,7 @@ You can clone or fork this project, to do that you need:
 
 In order to run this project you need:
 - Visual Studio Code or amy other equivalent code editor
-- Knowledge in HTML, CSS, Javascript and Github
+- Knowledge in HTML, CSS, Javascript, React, Redux and Github
 - And internet connection.
 
 <!--
@@ -230,7 +232,7 @@ FUTURE FEATURES
 
 > 
 
--  **I would work on the style, feel and the functionalities of the bookstore app.**
+-  **I would work on the style, feel and the functionalities of the bookstore app using API.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

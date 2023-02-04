@@ -7,26 +7,26 @@ const initialState = {
   books: [
     {
       id: '1',
-      title: 'The Hunger Games',
-      author: 'Suzanne Collins',
-      category: 'Action',
+      title: 'Things Fall Apart',
+      author: 'Chuinua Achebe',
+      category: 'Literature',
     },
     {
       id: '2',
-      title: 'Dune',
-      author: 'Frank Herbert',
-      category: 'Science Fiction',
+      title: 'What is Life',
+      author: 'Erwin Schrodinger',
+      category: 'Science',
     },
     {
       id: '3',
-      title: 'Capital in the Twenty-First Century',
-      author: 'Suzanne Collins',
-      category: 'Economy',
+      title: 'Half of a Yellow Sun',
+      author: 'Chimamanda Adichie',
+      category: 'History',
     },
   ],
 };
 
-const booksReducer = createReducer(initialState, (builder) => {
+const Reducer = createReducer(initialState, (builder) => {
   builder.addCase(ADD_BOOK, (state, action) => {
     const updatedState = {
       ...state,
@@ -47,4 +47,4 @@ const booksReducer = createReducer(initialState, (builder) => {
   builder.addDefaultCase((state) => state);
 });
 
-export default booksReducer;
+export default Reducer;

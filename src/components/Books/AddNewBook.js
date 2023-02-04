@@ -1,10 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { useDispatch } from 'react-redux';
 
 import { ADD_BOOK } from '../../redux/books/books';
 import Card from '../UI/Card';
 
-const AddNewBook = () => {
+const AddBook = () => {
   // state
   const [title, setTitle] = useState('');
   const [isTitleValid, setIsTitleValid] = useState(true);
@@ -95,9 +96,9 @@ const AddNewBook = () => {
         </div>
         <div>
           <select ref={categoryRef}>
-            <option value="Action">Action</option>
-            <option value="Science Fiction">Science Fiction</option>
-            <option value="Economy">Economy</option>
+            <option value="Action">Literature</option>
+            <option value="Science Fiction">Science</option>
+            <option value="Economy">History</option>
           </select>
         </div>
         <div>
@@ -108,4 +109,4 @@ const AddNewBook = () => {
   );
 };
 
-export default AddNewBook;
+export default AddBook;

@@ -1,4 +1,5 @@
 import React from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 
@@ -25,7 +26,7 @@ const Book = ({
             Remove
           </button>
         </div>
-        <div>Progress 80%</div>
+        <div>Progress 85%</div>
         <div>
           <button type="button">Update Progress</button>
         </div>
