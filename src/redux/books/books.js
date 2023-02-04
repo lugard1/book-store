@@ -8,7 +8,7 @@ const initialState = {
     {
       id: '1',
       title: 'Things Fall Apart',
-      author: 'Chuinua Achebe',
+      author: 'Chinua Achebe',
       category: 'Literature',
     },
     {
